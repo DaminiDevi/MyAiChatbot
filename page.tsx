@@ -28,7 +28,7 @@ export default function ChatBot() {
   const [fileUploaded, setFileUploaded] = useState(false);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const API_KEY = "AIzaSyA1LmH3MHsIujDKTIgeXOdjioi7-bpIdr4";
+  const API_KEY = "";
 
   // Load PDF.js from CDN once
   useEffect(() => {
